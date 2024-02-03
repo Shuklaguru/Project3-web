@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#main{
+    height: 100%;
+     width: 95%; 
+    
+}
+#nav{
+    width: 100%;
+    
+    padding: 24px 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#nav-part1{
+       display: flex;
+       justify-content: space-between;
+       width: 40%;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+#nav h2, h3,h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+#content{
+    padding: 24px 30px;
+    
+}
+#content h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+#content h1{
+    padding-top: 20px;
+    font-size: 112px;
+    font-weight: 500;
+    letter-spacing: -8px;
+    line-height: 100px;
+}
+#case{
+    margin-top: 115px;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#case h5{
+    font-size: 20px;
+}
+#line{
+    height: 2px;
+    background-color: black;
+}
+#right{
+    line-height: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+#project{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px;
+    gap: 60px;
+}
+#elem{
+    width: 50%;
+}
+.elem-img{
+    height: 550px;
+    background-color: greenyellow;
+    width: 100%;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(88, 86, 86);
+}
+#img1{
+    background-image: url(https://i.pinimg.com/originals/b3/a2/91/b3a2915ee7fadce23110debb26f10454.jpg);
+   
+}
+#img2{
+    background-image: url(https://cdn.dribbble.com/users/2778493/screenshots/14196709/media/1aa3dcf38a8b00efbc482648aad3df9d.png?resize=1000x750&vertical=center);
+    
+}
+
+#bottom {
+       display: flex;
+       justify-content: space-between;
+      align-items: center;
+       padding: 50px 0px;
+}
+#bottom i{
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 27px;
+    font-size: 19px;
+}
+#bottom h2{
+    font-size: 23px;
+    font-weight: 500px;
+    margin-bottom: 13px;
+}
+
+#bottom i:hover{
+background-color: black;
+color: white;
+font-weight: 400;
+}
+#bottom h4{
+    font-size: 14px;
+    font-weight: 500px;
+    color: rgb(80, 80, 80);
+}
